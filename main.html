@@ -4,12 +4,77 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<title> Job Application Form </title>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
+<div class="container">
+	<div class="apply-box">
+		<h1>Job Application
+			<span class="title-small">(Web)</span>
+		</h1>
+		<form action="">
+			<div class="form-container">
+				<div class="form-control">
+					<label for="first-name">Name</label>
+					<input name="Name" id="name" placeholder="Enter Name" required>
+				</div>
+			</div>
+			<div class="form-container">
+				<div class="form-control">
+					<label for="email">Email</label>
+					<input name="Email" id="Email" placeholder="Enter Email" required>
+				</div>
+			</div>
+			<div class="form-container">
+				<div class="form-control">
+					<label for="password">Password</label>
+					<input name="password" id="password" placeholder="Enter Password" required>
+				</div>
+			</div>
+			<div class="form-container">
+				<div class="form-control">
+					<label for="age">Age</label>
+					<input name="age" id="age" placeholder="Enter Age" required>
+				</div>
+			</div>
+			<div class="form-container">
+				<div class="form-control">
+					<label for="dob">D.O.B</label>
+					<input  value="1999-05-04"type="date" id="date"name="date" required>
+				</div>			</div>
+			<div class="form-container">
+				<div class="form-control">
+					<label for="portfolio">Portfolio Website</label>
+					<input name="portfolio" id="portfolio" placeholder="Add Portfolio Here" required>
+				</div>
+			</div>
+			
+			
+			<div class="form-gender">
+				Gender:
+				<input type="radio" id="male" value="male" name="genger">Male
+				<input type="radio" id="female" value="male"name="genger">Female
+
+			</div>
+			
+			<div class="form-laptops">
+				Laptop brands:
+				<input type="radio" id="Laptop" value="apple" name="laptop" >Apple
+				<input type="radio" id="Laptop" value="asus" name="laptop">Asus
+				<input type="radio" id="Laptop" value="hp" name="laptop">HP
+
+			</div>
+			<div class="button-container">
+				<button type="submit">Apply Now</button>
+			</div>
+			
+		</form>
+	</div>
+</div>
 
 </body>
 

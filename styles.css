@@ -1,2 +1,88 @@
 
 /* Your CSS Code here. */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aquamarine;
+    background-image: -webkit-linear-gradient(120deg, slategray 50%, gray 50%);
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+
+}
+.apply-box{
+    max-width: 600px;
+    padding: 20px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 4px 3px 5px black;
+    border-radius: 5px;
+    text-align: center;
+}
+.title-small{
+    font-size: 20px;
+}
+.form-container{
+    font-size: 20px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fir, minmax(200px, 1fr));
+    gap: 20px;
+}
+.form-control{
+    display: flex;
+    flex-direction: column;
+    font-weight: bolder;
+}
+label{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+input,
+select,
+textarea{
+    width: 30px
+    padding 6px 10px;
+    border: 1px solid rgb(158, 145, 145);
+    border-radius: 4px;
+    font-size: 15px;
+}
+input:focus{
+    outline-color: red;
+
+}
+.button-container{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+button{
+    background-color: blueviolet;
+    border: transparent;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: aqua;
+    border: 2px solid blue;
+    color: black;
+    transition: 0.3s ease-out;
+    cursor: pointer;
+
+}
+.form-gender{
+    margin:5px;
+display: flex;
+flex-direction: row;
+}
+.form-laptops{
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+}
