@@ -53,7 +53,7 @@ textarea{
     font-size: 15px;
 }
 input:focus{
-    outline-color: red;
+    outline-color: rgb(5, 208, 22);
 
 }
 .button-container{
